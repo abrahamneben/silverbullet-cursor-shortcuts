@@ -4,3 +4,7 @@ functions:
     path: hello.ts:helloWorld
     command:
       name: "Say hello"
+  moveCursor5LinesUp:
+    path: hello.ts:moveCursor5LinesUp
+    command:
+      name: "Move Cursor 5 Lines Up"
