@@ -1,11 +1,11 @@
 import { editor } from "@silverbulletmd/silverbullet/syscalls";
 
 export async function helloWorld() {
-  await editor.flashNotification("Hello world to abraham!");
+  await editor.flashNotification("Hello world to abraham 3");
 }
 
 export function moveCursor5LinesUp() {
-  editor.flashNotification("Hello world to abraham 2");
+  helloWorld();
   const pos = editor.getCursor();
   console.log(pos);
 
