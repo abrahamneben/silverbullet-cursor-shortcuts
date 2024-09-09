@@ -4,9 +4,10 @@ export async function helloWorld() {
   await editor.flashNotification("Hello world to abraham!");
 }
 
-export async function moveCursor5LinesUp() {
+export function moveCursor5LinesUp() {
+  editor.flashNotification("Hello world to abraham 2");
   const pos = editor.getCursor();
   console.log(pos);
 
-  await editor.moveCursor();
+  editor.moveCursor();
 }
